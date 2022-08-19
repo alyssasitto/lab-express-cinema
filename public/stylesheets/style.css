@@ -1,8 +1,97 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+body {
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 2rem 6rem;
+}
+
+.movie-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2rem;
+	text-align: center;
+}
+
+.movie img {
+	margin-bottom: 1rem;
+}
+
+.movie p {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.heading-container {
+	padding-left: 5rem;
+	margin-bottom: 3rem;
+}
+
+.heading-container h1 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.heading-container p {
+	font-size: 1.2rem;
+}
+
+.time-container {
+	display: flex;
+	gap: 1rem;
+}
+
+.time {
+	border-right: 1px solid black;
+	padding-right: 1rem;
+	font-size: 1.1rem;
+}
+
+.details-container {
+	display: flex;
+	gap: 4rem;
+	align-items: center;
+}
+
+.content {
+	max-width: 40rem;
+}
+
+.content h1 {
+	margin-bottom: 1rem;
+}
+
+.director {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.stars {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.content ul li {
+	font-size: 1.1rem;
+	margin-left: 1rem;
+}
+
+.content ul {
+	margin-bottom: 1rem;
+}
+
+.description {
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.back-btn {
+	margin-bottom: 0.8rem;
+	font-size: 1.1rem;
+	display: inline-block;
 }

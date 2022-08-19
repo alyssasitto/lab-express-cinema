@@ -1,0 +1,24 @@
+<div class="details-container">
+	<img src={{image}} />
+	<div class="content">
+		<a href="/movies" class="back-btn">Go back</a>
+		<h1>{{title}}</h1>
+		<p class="director">Director: {{director}}</p>
+		<p class="stars">Stars</p>
+		<ul>
+			{{#each stars}}
+				<li>{{this}}</li>
+			{{/each}}
+		</ul>
+
+		<p class="description">{{description}}</p>
+
+		<div class="time-container">
+			{{#each showtimes}}
+				<p class="time">{{this}}</p>
+			{{/each}}
+
+		</div>
+
+	</div>
+</div>

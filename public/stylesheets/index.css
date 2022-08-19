@@ -1,0 +1,31 @@
+body {
+	background-image: url("/images/cinema.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+a {
+	color: #00b7ff;
+	font-size: 1.6rem;
+	background-color: #fff;
+	padding: 1.2rem 2rem;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+h1 {
+	color: #fff;
+	font-size: 7rem;
+	line-height: 1;
+	margin-bottom: 3rem;
+}
+
+span {
+	display: block;
+}
+
+.container {
+	position: absolute;
+	left: 60%;
+	top: 20%;
+}
